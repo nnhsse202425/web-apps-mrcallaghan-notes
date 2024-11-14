@@ -146,3 +146,16 @@ if ("34" === 34) {
     "'34' is not strictly equal to to 34 because they are different types"
   );
 }
+
+/**
+ * Recommendation regarding null and undefined;
+ *  only use the strict equality and inequality operators (===, !==)
+ */
+
+if (a === null) {
+  console.log("a is null");
+}
+
+if (c === undefined) {
+  console.log("c is undefined");
+}
