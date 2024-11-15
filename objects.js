@@ -50,3 +50,6 @@ console.log(journalEntry.studentName);
  *    copying an object reference is not the same thing as copying the object, like Java
  *    can use Object.assign and structuredClone to clone object
  */
+const newJournalEntry = journalEntry;
+newJournalEntry.date = "2024-11-15";
+console.log(journalEntry.date); // 2024-11-15
